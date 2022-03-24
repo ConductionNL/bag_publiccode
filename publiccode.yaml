@@ -4,6 +4,17 @@ name: "Bevragen Ingeschreven Personen (BAG) API"
 url: "https://github.com/VNG-Realisatie/Haal-Centraal-BRP-bevragen"
 
 
+softwareType: standalone/backend
+
+platforms:
+  - web
+  
+categories:
+  - collaboration
+  - it-development
+  
+developmentStatus: stable
+
 description:
   nl:
     shortDescription: "De BAG API's zijn bedoeld om individuele bevragingen te doen op de landelijke voorziening Basisregistratie Adressen en Gebouwen (LV BAG)."
