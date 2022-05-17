@@ -1,4 +1,4 @@
-collection: "https://raw.githubusercontent.com/lvbag/BAG-API/master/Technische%20specificatie/Archief/Yaml's/BAG%20API%20Individuele%20Bevragingen/resolved/individuelebevragingen/v2/openapi.yaml"
+collection: "https://raw.githubusercontent.com/ConductionNL/bag_publiccode/main/bag_oas.yml"
 schemas:
   AdresseerbaarObject:
   - properties: 
