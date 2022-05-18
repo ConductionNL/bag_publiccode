@@ -27,349 +27,349 @@ schemas:
             documentnummer: "DD-2019-08-19-00"
 
   Adres:
-  - properties:
-      openbareRuimteNaam: Demodamse bibliotheek
-      korteNaam: Dd bibliotheek
-      huisnummer: 21
-      huisnummertoevoeging: a
-      postcode: 1000DD
-      woonplaatsNaam: Demodam
-      nummeraanduidingIdentificatie: 000000000000001
-      openbareRuimteIdentificatie: 000000000000002
-      woonplaatsIdentificatie: 1000
-      adresseerbaarObjectIdentificatie: 000000000000003
-      pandIdentificaties: [000000000000004]
-      indicatieNevenadres: true
-      geconstateerd:
-        woonplaats: true
-        openbareRuimte: true
-        nummeraanduiding: true
-      inonderzoek:
-        openbareRuimteNaam: true
-        korteNaam: true
-        huisnummer: true      
-        huisletter: true
-        huisnummertoevoeging: true
-        postcode: true
-        woonplaatsNaam: true
-        openbareRuimteLigtIn: true
-        openbareRuimteStatus: true
-        nummeraanduidingLigtIn: true
-        nummeraanduidingligtAan: true
-        nummeraanduidingStatus: true
-        toelichting: [Woonplaatsnaam is mogelijk onjuist geschreven.]
+    - properties:
+        openbareRuimteNaam: Demodamse bibliotheek
+        korteNaam: Dd bibliotheek
+        huisnummer: 21
+        huisnummertoevoeging: a
+        postcode: 1000DD
+        woonplaatsNaam: Demodam
+        nummeraanduidingIdentificatie: 000000000000001
+        openbareRuimteIdentificatie: 000000000000002
+        woonplaatsIdentificatie: 1000
+        adresseerbaarObjectIdentificatie: 000000000000003
+        pandIdentificaties: [000000000000004]
+        indicatieNevenadres: true
+        geconstateerd:
+          woonplaats: true
+          openbareRuimte: true
+          nummeraanduiding: true
+        inonderzoek:
+          openbareRuimteNaam: true
+          korteNaam: true
+          huisnummer: true      
+          huisletter: true
+          huisnummertoevoeging: true
+          postcode: true
+          woonplaatsNaam: true
+          openbareRuimteLigtIn: true
+          openbareRuimteStatus: true
+          nummeraanduidingLigtIn: true
+          nummeraanduidingligtAan: true
+          nummeraanduidingStatus: true
+          toelichting: [Woonplaatsnaam is mogelijk onjuist geschreven.]
 
   AdresUitgebreid:
-  - properties:
-      openbareRuimteNaam: "Laan van de landinrichtingscommissie Duiven-Westervoort"
-      korteNaam: "Ln vd l D-Westervoort"
-      huisnummer: 1
-      huisletter: "A"
-      huisnummertoevoeging: bis
-      postcode: 6922KZ
-      woonplaatsNaam: Duiven
-      nummeraanduidingIdentificatie: "0226200000038923"
-      openbareRuimteIdentificatie: "0226300000136124"
-      woonplaatsIdentificatie: "2096"
-      adresseerbaarObjectIdentificatie: "0226010000038820"
-      pandIdentificaties: ["0226100000008856"]
-      indicatieNevenadres: true
-      typeAdresseerbaarObject: "Verblijfsobject"
-      adresseerbaarObjectGeometrie: 
-        punt: 
-          type: "Point"
-          coordinates: [0, 0]
-        vlak: 
-          type: "Polygon"
-      adresseerbaarObjectStatus: "string"
-      gebruiksdoelen: ["woonfunctie"]
-      oppervlakte: 0
-      oorspronkelijkBouwjaar: ["1991"]
-      geconstateerd: 
-        woonplaats: true,
-        openbareRuimte: true,
-        nummeraanduiding: true,
-        ligplaats: true,
-        standplaats: true,
-        verblijfsobject: true,
-        pand: true
-      inonderzoek: 
-        openbareRuimteNaam: true
-        korteNaam: true
-        huisnummer: true
-        huisletter: true
-        huisnummertoevoeging: true
-        postcode: true
-        woonplaatsNaam: true
-        openbareRuimteLigtIn: true
-        openbareRuimteStatus: true
-        nummeraanduidingLigtIn: true
-        nummeraanduidingligtAan: true
-        nummeraanduidingStatus: true
-        toelichting: ["Woonplaatsnaam is mogelijk onjuist geschreven."]
-        typeAdresseerbaarObject: true
-        adresseerbaarObjectGeometrie: true
-        adresseerbaarObjectStatus: true
-        adresseerbaarObjectheeftAlsHoofdadres: true
-        adresseerbaarObjectheeftAlsNevenadres: true
-        gebruiksdoelen: true
-        oppervlakte: true
-        maaktDeelUitVan: true
-        oorspronkelijkBouwjaar: true
+    - properties:
+        openbareRuimteNaam: "Laan van de landinrichtingscommissie Duiven-Westervoort"
+        korteNaam: "Ln vd l D-Westervoort"
+        huisnummer: 1
+        huisletter: "A"
+        huisnummertoevoeging: bis
+        postcode: 6922KZ
+        woonplaatsNaam: Duiven
+        nummeraanduidingIdentificatie: "0226200000038923"
+        openbareRuimteIdentificatie: "0226300000136124"
+        woonplaatsIdentificatie: "2096"
+        adresseerbaarObjectIdentificatie: "0226010000038820"
+        pandIdentificaties: ["0226100000008856"]
+        indicatieNevenadres: true
+        typeAdresseerbaarObject: "Verblijfsobject"
+        adresseerbaarObjectGeometrie: 
+          punt: 
+            type: "Point"
+            coordinates: [0, 0]
+          vlak: 
+            type: "Polygon"
+        adresseerbaarObjectStatus: "string"
+        gebruiksdoelen: ["woonfunctie"]
+        oppervlakte: 0
+        oorspronkelijkBouwjaar: ["1991"]
+        geconstateerd: 
+          woonplaats: true,
+          openbareRuimte: true,
+          nummeraanduiding: true,
+          ligplaats: true,
+          standplaats: true,
+          verblijfsobject: true,
+          pand: true
+        inonderzoek: 
+          openbareRuimteNaam: true
+          korteNaam: true
+          huisnummer: true
+          huisletter: true
+          huisnummertoevoeging: true
+          postcode: true
+          woonplaatsNaam: true
+          openbareRuimteLigtIn: true
+          openbareRuimteStatus: true
+          nummeraanduidingLigtIn: true
+          nummeraanduidingligtAan: true
+          nummeraanduidingStatus: true
+          toelichting: ["Woonplaatsnaam is mogelijk onjuist geschreven."]
+          typeAdresseerbaarObject: true
+          adresseerbaarObjectGeometrie: true
+          adresseerbaarObjectStatus: true
+          adresseerbaarObjectheeftAlsHoofdadres: true
+          adresseerbaarObjectheeftAlsNevenadres: true
+          gebruiksdoelen: true
+          oppervlakte: true
+          maaktDeelUitVan: true
+          oorspronkelijkBouwjaar: true
   
   AlgemeneInformatie:
-  - properties: 
-    api-name: string,
-    api-version: string,
-    api-description: string,
-    informationmodel: IMBAGLV,
-    informationmodel-version: v20190601,
-    informationmodel-location: string
+    - properties: 
+        api-name: string,
+        api-version: string,
+        api-description: string,
+        informationmodel: IMBAGLV,
+        informationmodel-version: v20190601,
+        informationmodel-location: string
 
   Bronhouder:
-  - properties:
-    bronhouder: 
-      code: "0226"
-      naam: "Demodam"
-      beginGeldigheid: "2019-06-01T00:00:00.000Z"
-      eindGeldigheid: "2019-06-01T00:00:00.000Z"
-      provincie: 
-        naam: "Gelderland"
-        afkorting: "Ge"
+    - properties:
+        bronhouder: 
+          code: "0226"
+          naam: "Demodam"
+          beginGeldigheid: "2019-06-01T00:00:00.000Z"
+          eindGeldigheid: "2019-06-01T00:00:00.000Z"
+          provincie: 
+            naam: "Gelderland"
+            afkorting: "Ge"
 
   Ligplaats:
-  - properties:
-      ligplaats:
-        heeftAlsHoofdAdres: "0226200000038923"
-        heeftAlsNevenAdres: ["0226200000038923"]
-        type: "Verblijfsobject"
-        identificatie: "0797020000056894"
-        domein: "NL.IMBAG.Ligplaats"
-        status: "Plaats aangewezen"
-        geometrie: 
-          type: "Polygon"
-        geconstateerd: "J"
-        documentdatum: "2011-12-30T00:00:00.000Z"
-        documentnummer: "AVGEL30122011-07"
-        voorkomen: 
-          tijdstipRegistratie: "2019-08-24T14:15:22Z"
-          versie: 3
-          eindRegistratie: "2019-08-24T14:15:22Z"
-          beginGeldigheid: "2019-06-01T00:00:00.000Z"
-          eindGeldigheid: "2019-06-01T00:00:00.000Z"
-          tijdstipInactief: "2019-08-24T14:15:22Z"
-          tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
-          tijdstipNietBAG: "2019-08-24T14:15:22Z"
-      inonderzoek: 
-      - kenmerk: "geometrie"
-        identificatieVanLigplaats: "0797020000056894"
-        inOnderzoek: "J"
-        historie: 
-          tijdstipRegistratie: "2019-08-24T14:15:22Z"
-          eindRegistratie: "2019-08-24T14:15:22Z"
-          beginGeldigheid: "2019-06-01T00:00:00.000Z"
-          eindGeldigheid: "2019-06-01T00:00:00.000Z"
-          tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
-        documentdatum: "2019-08-14T00:00:00.000Z"
-        documentnummer: "AV-2019-08-19-00"
+    - properties:
+        ligplaats:
+          heeftAlsHoofdAdres: "0226200000038923"
+          heeftAlsNevenAdres: ["0226200000038923"]
+          type: "Verblijfsobject"
+          identificatie: "0797020000056894"
+          domein: "NL.IMBAG.Ligplaats"
+          status: "Plaats aangewezen"
+          geometrie: 
+            type: "Polygon"
+          geconstateerd: "J"
+          documentdatum: "2011-12-30T00:00:00.000Z"
+          documentnummer: "AVGEL30122011-07"
+          voorkomen: 
+            tijdstipRegistratie: "2019-08-24T14:15:22Z"
+            versie: 3
+            eindRegistratie: "2019-08-24T14:15:22Z"
+            beginGeldigheid: "2019-06-01T00:00:00.000Z"
+            eindGeldigheid: "2019-06-01T00:00:00.000Z"
+            tijdstipInactief: "2019-08-24T14:15:22Z"
+            tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
+            tijdstipNietBAG: "2019-08-24T14:15:22Z"
+        inonderzoek: 
+        - kenmerk: "geometrie"
+          identificatieVanLigplaats: "0797020000056894"
+          inOnderzoek: "J"
+          historie: 
+            tijdstipRegistratie: "2019-08-24T14:15:22Z"
+            eindRegistratie: "2019-08-24T14:15:22Z"
+            beginGeldigheid: "2019-06-01T00:00:00.000Z"
+            eindGeldigheid: "2019-06-01T00:00:00.000Z"
+            tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
+          documentdatum: "2019-08-14T00:00:00.000Z"
+          documentnummer: "AV-2019-08-19-00"
 
   Nummeraanduiding:
-  - properties:
-    nummeraanduiding: 
-      identificatie: "0226200000038923"
-      domein: "NL.IMBAG.Nummeraanduiding"
-      huisnummer: 1
-      huisletter: A
-      huisnummertoevoeging: bis
-      postcode: 1000DD
-      typeAdresseerbaarObject: Verblijfsobject
-      status: Naamgeving uitgegeven
-      geconstateerd: J
-      documentdatum: "2019-11-25T00:00:00.000Z"
-      documentnummer: "Demodam 25112019"
-      voorkomen: 
-        tijdstipRegistratie: "2019-08-24T14:15:22Z"
-        versie: 3
-        eindRegistratie: "2019-08-24T14:15:22Z"
-        beginGeldigheid: "2019-06-01T00:00:00.000Z"
-        eindGeldigheid: "2019-06-01T00:00:00.000Z"
-        tijdstipInactief: "2019-08-24T14:15:22Z"
-        tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
-        tijdstipNietBAG: "2019-08-24T14:15:22Z"
-      ligtIn: "2096"
-      ligtAan: "0226300000136124"
-    inonderzoek: 
-    - kenmerk: huisnummer
-      identificatieVanNummeraanduiding: "0226200000038923"
-      inOnderzoek: J
-      historie: 
-        tijdstipRegistratie: "2019-08-24T14:15:22Z"
-        eindRegistratie: "2019-08-24T14:15:22Z"
-        beginGeldigheid: "2019-06-01T00:00:00.000Z"
-        eindGeldigheid: "2019-06-01T00:00:00.000Z"
-        tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
-      documentdatum: "2019-08-14T00:00:00.000Z"
-      documentnummer: "AV-2019-08-19-00"
+    - properties:
+        nummeraanduiding: 
+          identificatie: "0226200000038923"
+          domein: "NL.IMBAG.Nummeraanduiding"
+          huisnummer: 1
+          huisletter: A
+          huisnummertoevoeging: bis
+          postcode: 1000DD
+          typeAdresseerbaarObject: Verblijfsobject
+          status: Naamgeving uitgegeven
+          geconstateerd: J
+          documentdatum: "2019-11-25T00:00:00.000Z"
+          documentnummer: "Demodam 25112019"
+          voorkomen: 
+            tijdstipRegistratie: "2019-08-24T14:15:22Z"
+            versie: 3
+            eindRegistratie: "2019-08-24T14:15:22Z"
+            beginGeldigheid: "2019-06-01T00:00:00.000Z"
+            eindGeldigheid: "2019-06-01T00:00:00.000Z"
+            tijdstipInactief: "2019-08-24T14:15:22Z"
+            tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
+            tijdstipNietBAG: "2019-08-24T14:15:22Z"
+          ligtIn: "2096"
+          ligtAan: "0226300000136124"
+        inonderzoek: 
+        - kenmerk: huisnummer
+          identificatieVanNummeraanduiding: "0226200000038923"
+          inOnderzoek: J
+          historie: 
+            tijdstipRegistratie: "2019-08-24T14:15:22Z"
+            eindRegistratie: "2019-08-24T14:15:22Z"
+            beginGeldigheid: "2019-06-01T00:00:00.000Z"
+            eindGeldigheid: "2019-06-01T00:00:00.000Z"
+            tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
+          documentdatum: "2019-08-14T00:00:00.000Z"
+          documentnummer: "AV-2019-08-19-00"
 
   OpenbareRuimte:
-  - properties:
-    openbareRuimte: 
-      identificatie: "0226300000136124"
-      domein: "NL.IMBAG.Openbareruimte"
-      naam: "Laan van de landinrichtingscommissie Demodam"
-      type: "Weg"
-      status: "Naamgeving uitgegeven"
-      korteNaam: "Ln vd l Demodam"
-      geconstateerd: "J"
-      documentdatum: "2011-08-22T00:00:00.000Z"
-      documentnummer: "11INT00398"
-      ligtIn: "2096"
-    inonderzoek: 
-    - kenmerk: "naam"
-      identificatieVanNummeraanduiding: "0226300000136124"
-      inOnderzoek: J
-      historie: 
-        tijdstipRegistratie: "2019-08-24T14:15:22Z"
-        eindRegistratie: "2019-08-24T14:15:22Z"
-        beginGeldigheid: "2019-06-01T00:00:00.000Z"
-        eindGeldigheid: "2019-06-01T00:00:00.000Z"
-        tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
-      documentdatum: "2019-08-14T00:00:00.000Z"
-      documentnummer: "AV-2019-08-19-00"
+    - properties:
+        openbareRuimte: 
+          identificatie: "0226300000136124"
+          domein: "NL.IMBAG.Openbareruimte"
+          naam: "Laan van de landinrichtingscommissie Demodam"
+          type: "Weg"
+          status: "Naamgeving uitgegeven"
+          korteNaam: "Ln vd l Demodam"
+          geconstateerd: "J"
+          documentdatum: "2011-08-22T00:00:00.000Z"
+          documentnummer: "11INT00398"
+          ligtIn: "2096"
+        inonderzoek: 
+        - kenmerk: "naam"
+          identificatieVanNummeraanduiding: "0226300000136124"
+          inOnderzoek: J
+          historie: 
+            tijdstipRegistratie: "2019-08-24T14:15:22Z"
+            eindRegistratie: "2019-08-24T14:15:22Z"
+            beginGeldigheid: "2019-06-01T00:00:00.000Z"
+            eindGeldigheid: "2019-06-01T00:00:00.000Z"
+            tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
+          documentdatum: "2019-08-14T00:00:00.000Z"
+          documentnummer: "AV-2019-08-19-00"
 
   Pand:
-  - properties:
-    pand:
-      identificatie: "0226100000008856"
-      domein: "NL.IMBAG.Pand"
-      geometrie: 
-        type: "Polygon"
-      oorspronkelijkBouwjaar: "1991"
-      status: "Bouwvergunning verleend"
-      geconstateerd: "J"
-      documentdatum: "2009-05-12T00:00:00.000Z"
-      documentnummer: "09.BW.0273"
-      voorkomen: 
-        tijdstipRegistratie: "2019-08-24T14:15:22Z"
-        versie: 3
-        eindRegistratie: "2019-08-24T14:15:22Z"
-        beginGeldigheid: "2019-06-01T00:00:00.000Z"
-        eindGeldigheid: "2019-06-01T00:00:00.000Z"
-        tijdstipInactief: "2019-08-24T14:15:22Z"
-        tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
-        tijdstipNietBAG: "2019-08-24T14:15:22Z"
+    - properties:
+        pand:
+          identificatie: "0226100000008856"
+          domein: "NL.IMBAG.Pand"
+          geometrie: 
+            type: "Polygon"
+          oorspronkelijkBouwjaar: "1991"
+          status: "Bouwvergunning verleend"
+          geconstateerd: "J"
+          documentdatum: "2009-05-12T00:00:00.000Z"
+          documentnummer: "09.BW.0273"
+          voorkomen: 
+            tijdstipRegistratie: "2019-08-24T14:15:22Z"
+            versie: 3
+            eindRegistratie: "2019-08-24T14:15:22Z"
+            beginGeldigheid: "2019-06-01T00:00:00.000Z"
+            eindGeldigheid: "2019-06-01T00:00:00.000Z"
+            tijdstipInactief: "2019-08-24T14:15:22Z"
+            tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
+            tijdstipNietBAG: "2019-08-24T14:15:22Z"
   
   Standplaats:
-  - properties: 
-      standplaats: 
-        heeftAlsHoofdAdres: "0226200000038923"
-        heeftAlsNevenAdres: ["0226200000038923"]
-        type: "Verblijfsobject"
-        identificatie: "0797030000056834"
-        domein: "NL.IMBAG.Standplaats"
-        status: "Plaats aangewezen"
-        geometrie: 
-          type: "Polygon"
-        geconstateerd: "J"
-        documentdatum: "2011-10-05T00:00:00.000Z"
-        documentnummer: "AVGEL05102011-09"
-        voorkomen: 
-          tijdstipRegistratie: "2019-08-24T14:15:22Z"
-          versie: 3
-          eindRegistratie: "2019-08-24T14:15:22Z"
-          beginGeldigheid: "2019-06-01T00:00:00.000Z"
-          eindGeldigheid: "2019-06-01T00:00:00.000Z"
-          tijdstipInactief: "2019-08-24T14:15:22Z"
-          tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
-          tijdstipNietBAG: "2019-08-24T14:15:22Z"
-      inonderzoek: 
-      - kenmerk: "geometrie"
-        identificatieVanNummeraanduiding: "0226300000136124"
-        inOnderzoek: J
-        historie: 
-          tijdstipRegistratie: "2019-08-24T14:15:22Z"
-          eindRegistratie: "2019-08-24T14:15:22Z"
-          beginGeldigheid: "2019-06-01T00:00:00.000Z"
-          eindGeldigheid: "2019-06-01T00:00:00.000Z"
-          tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
-        documentdatum: "2019-08-14T00:00:00.000Z"
-        documentnummer: "AV-2019-08-19-00"
+    - properties: 
+        standplaats: 
+          heeftAlsHoofdAdres: "0226200000038923"
+          heeftAlsNevenAdres: ["0226200000038923"]
+          type: "Verblijfsobject"
+          identificatie: "0797030000056834"
+          domein: "NL.IMBAG.Standplaats"
+          status: "Plaats aangewezen"
+          geometrie: 
+            type: "Polygon"
+          geconstateerd: "J"
+          documentdatum: "2011-10-05T00:00:00.000Z"
+          documentnummer: "AVGEL05102011-09"
+          voorkomen: 
+            tijdstipRegistratie: "2019-08-24T14:15:22Z"
+            versie: 3
+            eindRegistratie: "2019-08-24T14:15:22Z"
+            beginGeldigheid: "2019-06-01T00:00:00.000Z"
+            eindGeldigheid: "2019-06-01T00:00:00.000Z"
+            tijdstipInactief: "2019-08-24T14:15:22Z"
+            tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
+            tijdstipNietBAG: "2019-08-24T14:15:22Z"
+        inonderzoek: 
+        - kenmerk: "geometrie"
+          identificatieVanNummeraanduiding: "0226300000136124"
+          inOnderzoek: J
+          historie: 
+            tijdstipRegistratie: "2019-08-24T14:15:22Z"
+            eindRegistratie: "2019-08-24T14:15:22Z"
+            beginGeldigheid: "2019-06-01T00:00:00.000Z"
+            eindGeldigheid: "2019-06-01T00:00:00.000Z"
+            tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
+          documentdatum: "2019-08-14T00:00:00.000Z"
+          documentnummer: "AV-2019-08-19-00"
 
   Verblijfsobject:
-  - properties:
-    verblijfsobject:
-      heeftAlsHoofdAdres: "0226200000038923"
-      heeftAlsNevenAdres: ["0226200000038923"]
-      type: "Verblijfsobject"
-      identificatie: "0226010000038820"
-      domein: "NL.IMBAG.Verblijfsobject"
-      geometrie: 
-        punt: 
-          type: "Point"
-          coordinates: [0, 0]
-        vlak:
-          type: "Polygon"
-      gebruiksdoelen: ["woonfunctie"]
-      oppervlakte: 205
-      status: "Verblijfsobject gevormd"
-      geconstateerd: "J"
-      documentdatum: "2019-11-22T00:00:00.000Z"
-      documentnummer: "19SZ2048"
-      voorkomen: 
-        tijdstipRegistratie: "2019-08-24T14:15:22Z"
-        versie: 3
-        eindRegistratie: "2019-08-24T14:15:22Z"
-        beginGeldigheid: "2019-06-01T00:00:00.000Z"
-        eindGeldigheid: "2019-06-01T00:00:00.000Z"
-        tijdstipInactief: "2019-08-24T14:15:22Z"
-        tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
-        tijdstipNietBAG: "2019-08-24T14:15:22Z"
-      maaktDeelUitVan: ["0226100000008856" ]
-    inonderzoek: 
-    - kenmerk: "geometrie"
-      identificatieVanNummeraanduiding: "0226010000038820"
-      inOnderzoek: J
-      historie: 
-        tijdstipRegistratie: "2019-08-24T14:15:22Z"
-        eindRegistratie: "2019-08-24T14:15:22Z"
-        beginGeldigheid: "2019-06-01T00:00:00.000Z"
-        eindGeldigheid: "2019-06-01T00:00:00.000Z"
-        tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
-      documentdatum: "2019-08-14T00:00:00.000Z"
-      documentnummer: "AV-2019-08-19-00"
+    - properties:
+        verblijfsobject:
+          heeftAlsHoofdAdres: "0226200000038923"
+          heeftAlsNevenAdres: ["0226200000038923"]
+          type: "Verblijfsobject"
+          identificatie: "0226010000038820"
+          domein: "NL.IMBAG.Verblijfsobject"
+          geometrie: 
+            punt: 
+              type: "Point"
+              coordinates: [0, 0]
+            vlak:
+              type: "Polygon"
+          gebruiksdoelen: ["woonfunctie"]
+          oppervlakte: 205
+          status: "Verblijfsobject gevormd"
+          geconstateerd: "J"
+          documentdatum: "2019-11-22T00:00:00.000Z"
+          documentnummer: "19SZ2048"
+          voorkomen: 
+            tijdstipRegistratie: "2019-08-24T14:15:22Z"
+            versie: 3
+            eindRegistratie: "2019-08-24T14:15:22Z"
+            beginGeldigheid: "2019-06-01T00:00:00.000Z"
+            eindGeldigheid: "2019-06-01T00:00:00.000Z"
+            tijdstipInactief: "2019-08-24T14:15:22Z"
+            tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
+            tijdstipNietBAG: "2019-08-24T14:15:22Z"
+          maaktDeelUitVan: ["0226100000008856" ]
+        inonderzoek: 
+        - kenmerk: "geometrie"
+          identificatieVanNummeraanduiding: "0226010000038820"
+          inOnderzoek: J
+          historie: 
+            tijdstipRegistratie: "2019-08-24T14:15:22Z"
+            eindRegistratie: "2019-08-24T14:15:22Z"
+            beginGeldigheid: "2019-06-01T00:00:00.000Z"
+            eindGeldigheid: "2019-06-01T00:00:00.000Z"
+            tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
+          documentdatum: "2019-08-14T00:00:00.000Z"
+          documentnummer: "AV-2019-08-19-00"
 
 
   Woonplaats:
-  - properties:
-    woonplaats:
-      identificatie: "2096"
-      domein: "NL.IMBAG.Woonplaats"
-      naam: "Demodam"
-      status: "Woonplaats aangewezen"
-      geconstateerd: "J"
-      documentdatum: "2009-02-09T00:00:00.000Z"
-      documentnummer: "09.0898"
-      voorkomen: 
-        tijdstipRegistratie: "2019-08-24T14:15:22Z"
-        versie: 3
-        eindRegistratie: "2019-08-24T14:15:22Z"
-        beginGeldigheid: "2019-06-01T00:00:00.000Z"
-        eindGeldigheid: "2019-06-01T00:00:00.000Z"
-        tijdstipInactief: "2019-08-24T14:15:22Z"
-        tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
-        tijdstipNietBAG: "2019-08-24T14:15:22Z"
-    inonderzoek: 
-    - kenmerk: "naam"
-      identificatieVanWoonplaats: "2096"
-      inOnderzoek: J
-      historie: 
-        tijdstipRegistratie: "2019-08-24T14:15:22Z"
-        eindRegistratie: "2019-08-24T14:15:22Z"
-        beginGeldigheid: "2019-06-01T00:00:00.000Z"
-        eindGeldigheid: "2019-06-01T00:00:00.000Z"
-        tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
-      documentdatum: "2019-08-14T00:00:00.000Z"
-      documentnummer: "AV-2019-08-19-00"
+    - properties:
+        woonplaats:
+          identificatie: "2096"
+          domein: "NL.IMBAG.Woonplaats"
+          naam: "Demodam"
+          status: "Woonplaats aangewezen"
+          geconstateerd: "J"
+          documentdatum: "2009-02-09T00:00:00.000Z"
+          documentnummer: "09.0898"
+          voorkomen: 
+            tijdstipRegistratie: "2019-08-24T14:15:22Z"
+            versie: 3
+            eindRegistratie: "2019-08-24T14:15:22Z"
+            beginGeldigheid: "2019-06-01T00:00:00.000Z"
+            eindGeldigheid: "2019-06-01T00:00:00.000Z"
+            tijdstipInactief: "2019-08-24T14:15:22Z"
+            tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
+            tijdstipNietBAG: "2019-08-24T14:15:22Z"
+        inonderzoek: 
+        - kenmerk: "naam"
+          identificatieVanWoonplaats: "2096"
+          inOnderzoek: J
+          historie: 
+            tijdstipRegistratie: "2019-08-24T14:15:22Z"
+            eindRegistratie: "2019-08-24T14:15:22Z"
+            beginGeldigheid: "2019-06-01T00:00:00.000Z"
+            eindGeldigheid: "2019-06-01T00:00:00.000Z"
+            tijdstipRegistratieLV: "2019-08-24T14:15:22Z"
+          documentdatum: "2019-08-14T00:00:00.000Z"
+          documentnummer: "AV-2019-08-19-00"
 
 
 
