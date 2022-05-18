@@ -1215,9 +1215,9 @@ paths:
           content:
             application/json:
               schema:   
-                  type: array
-                  items:
-                    $ref: '#/components/schemas/Adres'
+                type: array
+                items:
+                  $ref: '#/components/schemas/Adres'
 
             application/hal+json:
               schema:
@@ -1945,6 +1945,12 @@ paths:
             warning:
               $ref: '#/components/headers/warning'
           content:
+            application/json:
+              schema:   
+                type: array
+                items:
+                  $ref: '#/components/schemas/AdresUitgebreid'
+                  
             application/hal+json:
               schema:
                 $ref: '#/components/schemas/AdresUitgebreidHalCollection'
