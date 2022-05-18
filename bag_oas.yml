@@ -2420,6 +2420,12 @@ paths:
             warning:
               $ref: '#/components/headers/warning'
           content:
+            application/json:
+              schema:   
+                type: array
+                items:
+                  $ref: '#/components/schemas/Bronhouder'
+
             application/hal+json:
               schema:
                 $ref: '#/components/schemas/BronhouderHalCollection'
