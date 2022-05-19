@@ -5626,6 +5626,12 @@ paths:
             X-Pagination-Limit:
               $ref: '#/components/headers/X_Pagination_Limit'
           content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/OpenbareRuimte'
+
             application/hal+json:
               schema:
                 $ref: '#/components/schemas/OpenbareRuimteIOHalCollection'
