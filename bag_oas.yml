@@ -9941,6 +9941,12 @@ paths:
             Content-Crs:
               $ref: '#/components/headers/contentCrs'
           content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Woonplaats'
+
             application/hal+json:
               schema:
                 $ref: '#/components/schemas/WoonplaatsIOHalCollection'
